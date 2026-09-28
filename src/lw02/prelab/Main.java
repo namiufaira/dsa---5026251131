@@ -79,7 +79,6 @@ public class Main {
         System.out.println("=== Failed Transactions ===");
         while (!failed.isEmpty()) {
             String[] transaction = failed.pop();
-
             System.out.println(
                 transaction[0] + " "
                 + transaction[1] + " "
@@ -88,7 +87,6 @@ public class Main {
         }
 
         System.out.println("=== Final Balances ===");
-
         for (String[] customer : customers) {
             System.out.println(customer[0] + " : " + customer[1]);
         }
