@@ -11,7 +11,7 @@ public abstract class PrintJob implements Chargeable {
         this.id = id;
         this.pages = pages;
     }
-
+    
     public String getId() {
         return id;
     }
